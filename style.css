@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  padding: 0 30px;
+  margin-top: 30px;
+  color: rgb(160, 166, 173);
+}
+
+.header-left img {
+  float: left;
+  height: 30px;
+  margin: 5px 20px 0 10px;
+}
+
+.header-left-element {
+  float: left;
+  line-height: 50px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right-element {
+  float: left;
+  line-height: 50px;
+  margin: 0 20px;
+  cursor: pointer;
+  position: relative;
+  color: rgb(160, 166, 173);
+}
+
+.header-right-element:hover {
+  color: black;
+}
+
+.btn {
+  padding: 0 30px;
+  background: rgb(235, 0, 141);
+  border-radius: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+/* SOTTOMENU */
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: -40px;
+  width: 180px;
+  box-shadow: 5px 10px 16px -2px rgba(219,219,219,1);
+}
+
+.dropdown-accounts {
+  width: 180px;
+  top: 50px;
+  left: -50px;
+}
+
+.dropdown-products {
+  width: 250px;
+  top: 60px;
+  left: -90px;
+}
+
+.dropdown-company {
+  width: 100px;
+  left: -15px;
+  text-align: center;
+}
+
+.dropdown-help {
+  width: 130px;
+}
+
+.dropdown-element {
+  color: rgb(160, 166, 173);
+  padding: 0 20px;
+}
+
+.dropdown-element:hover {
+  color: black;
+  background: #f7f7f9;
+}
+
+.active {
+  display: block;
+}
